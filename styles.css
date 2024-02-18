@@ -33,9 +33,10 @@
 
 .header-content {
     display: flex;
+    margin: 2em 0;
 }
 
 .header-image {
-    width: 400px;
+    max-width: 100%;
     height: auto;
 }
