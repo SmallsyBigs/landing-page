@@ -35,3 +35,8 @@
 .header-content {
     display: flex;
 }
+
+.header-image {
+    width: 400px;
+    height: auto;
+}
