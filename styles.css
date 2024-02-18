@@ -1,0 +1,17 @@
+* {
+    font-family: "Trirong", serif;
+}
+.header {
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+}
