@@ -35,6 +35,7 @@
     display: flex;
     margin: 2em 0;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .title-content {
@@ -61,12 +62,13 @@ button {
     max-width: 150px;
     background-color: rgb(57, 115, 170);
     border-radius: 0.5em;
-    color: white;
+    color: #e5e7eb;
     padding: 5px;
+    font-size: 20px;
 }
 
 .header-image {
-    max-width: 100%;
+    align-self: center;
+    width: 450px;
     height: auto;
 }
-
