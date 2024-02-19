@@ -34,6 +34,7 @@
 .header-content {
     display: flex;
     margin: 2em 0;
+    justify-content: space-between;
 }
 
 .title-content {
@@ -51,6 +52,8 @@ h1 {
 p {
     color: #e5e7eb;
     font-size: 18px;
+    width: 350px;
+    text-align: justify;
 }
 
 button {
