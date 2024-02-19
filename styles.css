@@ -31,14 +31,14 @@
     padding: 0;
 }
 
-.header-content {
+.header-content-container {
     display: flex;
     margin: 2em 0;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.title-content {
+.header-content {
     display: flex;
     flex-direction: column;
     gap: 4em;
