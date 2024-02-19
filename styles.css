@@ -1,7 +1,7 @@
 * {
     font-family: "Trirong", serif;
 }
-.header {
+.header-section {
     display: flex;
     background-color: #1f2937;
     flex-direction: column;
