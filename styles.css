@@ -72,3 +72,13 @@ button {
     width: 450px;
     height: auto;
 }
+
+.review-section {
+    display: flex;
+    padding: 4em 20em;
+    flex-direction: column;
+}
+
+.review {
+    display: flex;
+}
