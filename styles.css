@@ -87,11 +87,14 @@
 .review-container {
     display: flex;
     justify-content: space-between;
-    margin: 3em;
 }
 
 .review {
     display: flex;
-    gap: 4em;
+    flex-direction: column;
+}
 
+.image-review {
+    width: 150px;
+    height: 240px;
 }
