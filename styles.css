@@ -79,12 +79,19 @@
     flex-direction: column;
 }
 
+.review-title {
+    text-align: center;
+    font-size: 50px;
+}
+
 .review-container {
     display: flex;
+    justify-content: space-between;
+    margin: 3em;
 }
 
 .review {
     display: flex;
     gap: 4em;
-    justify-content: space-between;
+
 }
