@@ -106,3 +106,19 @@
     max-width: 150px;
     line-height: 1.5em;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 4em 30em;
+    flex-direction: column;
+}
+
+.the-quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author {
+    align-self: flex-end;
+}
