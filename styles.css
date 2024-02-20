@@ -117,8 +117,14 @@
 .the-quote {
     font-size: 36px;
     font-style: italic;
+    text-align: justify;
+    flex: 1;
+    min-width: 400px;
 }
 
 .quote-author {
+    border: solid red;
     align-self: flex-end;
+    font-weight: 700;
+    overflow: hidden;
 }
