@@ -123,7 +123,6 @@
 }
 
 .quote-author {
-    border: solid red;
     align-self: flex-end;
     font-weight: 700;
     overflow: hidden;
