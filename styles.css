@@ -1,5 +1,6 @@
 * {
     font-family: "Trirong", serif;
+    box-sizing: border-box;
 }
 .header-section {
     display: flex;
@@ -89,6 +90,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-content: space-between;
+    
 }
 
 .image-review {
