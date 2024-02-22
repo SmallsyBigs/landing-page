@@ -1,6 +1,7 @@
 * {
     font-family: "Trirong", serif;
     box-sizing: border-box;
+    border: solid red 0.1px;
 }
 .header-section {
     display: flex;
@@ -17,12 +18,15 @@
 .header-logo {
     color: #f9faf8;
     font-size: 24px;
+    min-width: fit-content
 }
 
 .header-link-container {
     display: flex;
-    gap: 2em;
+    justify-content: space-between;
     margin: 0;
+    padding: 0;
+    gap: 1em;
 }
 
 .header-link-container > a {
@@ -57,7 +61,7 @@
     font-size: 20px;
     text-align: justify;
     line-height: 1.5em;
-    min-width: 400px;
+    min-width: 450px;
 }
 
 .header-button {
@@ -71,9 +75,7 @@
 
 .header-image {
     align-self: center;
-    width: 450px;
-    height: auto;
-    flex: 1;
+    overflow: hidden;
 }
 
 .review-section {
