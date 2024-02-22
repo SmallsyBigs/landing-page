@@ -1,13 +1,12 @@
 * {
     font-family: "Trirong", serif;
     box-sizing: border-box;
-    border: solid red 0.1px;
 }
 .header-section {
     display: flex;
     background-color: #1f2937;
     flex-direction: column;
-    padding: 4em 15em;
+    padding: 4em 5em;
 }
 
 .header-top {
