@@ -2,7 +2,7 @@
     font-family: "Trirong", serif;
     box-sizing: border-box;
 }
-.header-section {
+header {
     display: flex;
     background-color: #1f2937;
     flex-direction: column;
@@ -86,7 +86,7 @@
     gap: 5em;
 }
 
-.review-title {
+.review-section > h1 {
     margin: auto;
     font-size: 50px;
 }
