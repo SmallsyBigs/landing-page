@@ -25,7 +25,7 @@
     margin: 0;
 }
 
-.header-link {
+.header-link-container > a {
     color: #e5e7eb;
     font-size: 18px;
     margin: 0;
