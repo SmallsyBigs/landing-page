@@ -82,7 +82,7 @@
 }
 
 .review-title {
-    text-align: center;
+    margin: auto;
     font-size: 50px;
 }
 
@@ -90,7 +90,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-content: space-between;
-    
 }
 
 .image-review {
