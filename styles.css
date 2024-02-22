@@ -36,13 +36,14 @@
     display: flex;
     margin: 2em 0;
     justify-content: space-between;
-    flex-wrap: wrap;
+    gap: 5em;
 }
 
 .header-content {
     display: flex;
     flex-direction: column;
-    gap: 4em;
+    gap: 1em;
+    flex: 1;
 }
 
 .header-title {
@@ -54,9 +55,9 @@
 .header-p {
     color: #e5e7eb;
     font-size: 20px;
-    width: 550px;
     text-align: justify;
     line-height: 1.5em;
+    min-width: 400px;
 }
 
 .header-button {
@@ -72,6 +73,7 @@
     align-self: center;
     width: 450px;
     height: auto;
+    flex: 1;
 }
 
 .review-section {
