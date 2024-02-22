@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 0.5em;
 }
 
 .header-logo {
@@ -111,8 +112,10 @@
 .quote-section {
     background-color: #E5E7EB;
     display: flex;
-    padding: 4em 30em;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
 }
 
 .the-quote {
@@ -124,7 +127,7 @@
 }
 
 .quote-author {
-    align-self: flex-end;
     font-weight: 700;
-    overflow: hidden;
+    align-self: flex-end;
+    padding-right: 17%;
 }
