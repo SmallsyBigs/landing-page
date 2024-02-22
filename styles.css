@@ -51,13 +51,13 @@
     flex: 1;
 }
 
-.header-title {
+.header-content > h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
 
-.header-p {
+.header-content > p {
     color: #e5e7eb;
     font-size: 20px;
     text-align: justify;
@@ -65,7 +65,7 @@
     max-width: 650px;
 }
 
-.header-button {
+.header-content > button {
     max-width: 150px;
     background-color: rgb(57, 115, 170);
     border-radius: 0.5em;
@@ -74,7 +74,7 @@
     font-size: 20px;
 }
 
-.header-image {
+.header-content-container > img {
     align-self: center;
     min-width: 250px;
 }
@@ -103,11 +103,11 @@
 }
 
 .review > h2 {
-    
+    text-align: center;
+    color: rgb(127, 137, 182);
 }
 
 .review > p {
-    text-align: center;
     font-size: 20px;
     max-width: 150px;
     line-height: 1.5em;
