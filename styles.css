@@ -119,7 +119,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1em;
+    padding: 7em;
 }
 
 .the-quote {
@@ -134,4 +134,8 @@ header {
     font-weight: 700;
     align-self: flex-end;
     padding-right: 17%;
+}
+
+.call {
+    display: flex;
 }
