@@ -136,10 +136,25 @@ header {
     padding-right: 17%;
 }
 
-.call {
+.sign-section {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 15px;
+    margin: 3em 6em;
+    padding: 1%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.call-content {
     display: flex;
 }
 
+.sign-section > button {
+    font-weight: 1000;
+    font-size: 25px;
+}
 
 footer {
     background-color: #1F2937;
@@ -151,5 +166,5 @@ footer {
 footer > p {
     color: #e5e7eb;
     padding: 1em 0;
-    font-size: 13px;
+    font-size: 10px;
 }
