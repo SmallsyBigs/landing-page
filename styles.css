@@ -140,8 +140,8 @@ header {
     display: flex;
     background-color: #3882F6;
     border-radius: 15px;
-    margin: 3em 6em;
-    padding: 1%;
+    margin: 2% 15%;
+    padding: 1.5% 3%;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
@@ -149,11 +149,17 @@ header {
 
 .call-content {
     display: flex;
+    color: #e5e7eb;
 }
 
 .sign-section > button {
     font-weight: 1000;
-    font-size: 25px;
+    font-size: 22px;
+    padding: 0.5em;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    border-radius: 15px;
+    border: solid #e5e7eb 1px;
 }
 
 footer {
