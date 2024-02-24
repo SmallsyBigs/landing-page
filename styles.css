@@ -100,7 +100,6 @@ header {
 .review > img {
     width: 150px;
     height: 240px;
-    align-self: center;
 }
 
 .review > h2 {
