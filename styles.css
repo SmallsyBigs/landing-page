@@ -104,11 +104,10 @@ header {
 
 .review > h2 {
     text-align: center;
-    color: rgb(127, 137, 182);
 }
 
 .review > p {
-    font-size: 20px;
+    font-size: 15px;
     max-width: 150px;
     line-height: 1.5em;
 }
